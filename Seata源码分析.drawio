@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T13:37:54.252Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="XKnRY3zhxbbyZZWY91aU" version="24.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T14:03:42.736Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="PNrlNkibfA4nZsN9LlHL" version="24.4.3" type="github">
   <diagram name="第 1 页" id="ZycuExzJnoT6AE0Q76C5">
-    <mxGraphModel dx="2739" dy="1766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2911" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -180,8 +180,11 @@
         <mxCell id="teYCJ3rC2_9tq7Tjygq5-62" value="io.seata.tm.DefaultTransactionManager#syncCall" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-995" y="2000" width="460" height="126" as="geometry" />
         </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-65" target="bbbpKGn0UcV9-m-uiWOn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="teYCJ3rC2_9tq7Tjygq5-65" value="spring.factories里数据源代理核心类SeataDataSourceAutoConfiguration" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="850" y="70" width="540" height="50" as="geometry" />
+          <mxGeometry x="860" y="40" width="540" height="50" as="geometry" />
         </mxCell>
         <mxCell id="teYCJ3rC2_9tq7Tjygq5-66" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;事务的开启涉及到sql 解析已经 前后镜像的生成 离不开数据源的代理&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="890" y="-40" width="460" height="70" as="geometry" />
@@ -203,6 +206,51 @@
         </mxCell>
         <mxCell id="bbbpKGn0UcV9-m-uiWOn-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;i&gt;2pc&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbbpKGn0UcV9-m-uiWOn-10" target="bbbpKGn0UcV9-m-uiWOn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-10" value="SeataDataSourceBeanPostProcessor&amp;nbsp; &amp;nbsp;implements BeanPostProcessor" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="165" width="480" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbbpKGn0UcV9-m-uiWOn-12" target="bbbpKGn0UcV9-m-uiWOn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-12" value="postProcessBeforeInitialization" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="240" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbbpKGn0UcV9-m-uiWOn-14" target="bbbpKGn0UcV9-m-uiWOn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-14" value="postProcessAfterInitialization" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="310" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbbpKGn0UcV9-m-uiWOn-16" target="bbbpKGn0UcV9-m-uiWOn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-16" value="if (bean instanceof DataSource) 判断是否是数据源对象" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1427" y="297.5" width="470" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbbpKGn0UcV9-m-uiWOn-18" target="bbbpKGn0UcV9-m-uiWOn-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-18" value="DataSourceProxyHolder#putDataSource" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="430" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbbpKGn0UcV9-m-uiWOn-20" target="bbbpKGn0UcV9-m-uiWOn-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-20" value="DataSourceProxyHolder#createDsProxyByMode" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="520" width="420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbbpKGn0UcV9-m-uiWOn-23" target="bbbpKGn0UcV9-m-uiWOn-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-23" value="return BranchType.XA == mode ? new DataSourceProxyXA(originDs) : new DataSourceProxy(originDs);" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="645" width="780" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-25" value="代理io.seata.rm.datasource.ConnectionProxy、&lt;div&gt;io.seata.rm.datasource.StatementProxy、io.seata.rm.datasource.PreparedStatementProxy&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="785" width="620" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
