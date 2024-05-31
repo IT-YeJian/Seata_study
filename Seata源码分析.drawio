@@ -1,180 +1,208 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T07:17:03.073Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ZPVLnia90ghnDg7BUPLe" version="20.8.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T13:32:59.231Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="A5ML0p2-WNs9R-d05UiQ" version="24.4.3" type="github">
   <diagram name="第 1 页" id="ZycuExzJnoT6AE0Q76C5">
-    <mxGraphModel dx="3246" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2739" dy="1766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-1" value="&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;1.自动加载各种Bean配置信息&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;2.初始化TM&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;3.初始化RM&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;4.初始化分布式事务客户端完成，，代理数据源&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;5.连接TC 注册RM，注册TM&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;6.开启全局事务&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-1" value="&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;1.自动加载各种Bean配置信息&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;2.初始化TM&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;3.初始化RM&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;4.初始化分布式事务客户端完成，，代理数据源&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;5.连接TC 注册RM，注册TM&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;6.开启全局事务&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-10" y="-60" width="400" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-2" target="teYCJ3rC2_9tq7Tjygq5-3">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-2" target="teYCJ3rC2_9tq7Tjygq5-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-2" value="spring.factories里核心类SeataAutoConfiguration" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-2" value="spring.factories里核心类SeataAutoConfiguration" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="270" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-3" target="teYCJ3rC2_9tq7Tjygq5-6">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-3" target="teYCJ3rC2_9tq7Tjygq5-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-3" target="teYCJ3rC2_9tq7Tjygq5-5">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-3" target="teYCJ3rC2_9tq7Tjygq5-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-3" value="全局事务扫描类GlobalTransactionScanner extends AbstractAutoProxyCreator(aop)&lt;div&gt;&amp;nbsp; &amp;nbsp; implements ConfigurationChangeListener(监听器), InitializingBean(初始化方法), ApplicationContextAware(获取spring容器), DisposableBean(bean销毁)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-3" value="全局事务扫描类GlobalTransactionScanner extends AbstractAutoProxyCreator(aop)&lt;div&gt;&amp;nbsp; &amp;nbsp; implements ConfigurationChangeListener(监听器), InitializingBean(初始化方法), ApplicationContextAware(获取spring容器), DisposableBean(bean销毁)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="230" width="250" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-5" target="teYCJ3rC2_9tq7Tjygq5-10">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-5" target="teYCJ3rC2_9tq7Tjygq5-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-12" value="把标注了@GlobalTransactional注解的类生成代理对象,并且植入到拦截器GlobalTransactionalInterceptor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="teYCJ3rC2_9tq7Tjygq5-11">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-12" value="把标注了@GlobalTransactional注解的类生成代理对象,并且植入到拦截器GlobalTransactionalInterceptor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="teYCJ3rC2_9tq7Tjygq5-11" vertex="1" connectable="0">
           <mxGeometry x="-0.0636" y="1" relative="1" as="geometry">
             <mxPoint x="-21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-5" value="&lt;font color=&quot;#ff0000&quot;&gt;AbstractAutoProxyCreator&amp;nbsp; &amp;nbsp;aop抽象类 具有生成代理对象的功能&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-5" value="&lt;font color=&quot;#ff0000&quot;&gt;AbstractAutoProxyCreator&amp;nbsp; &amp;nbsp;aop抽象类 具有生成代理对象的功能&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-290" y="440" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-6" target="teYCJ3rC2_9tq7Tjygq5-13">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-6" target="teYCJ3rC2_9tq7Tjygq5-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-6" value="InitializingBean 初始化Bean的属性 afterPropertiesSet" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-6" value="InitializingBean 初始化Bean的属性 afterPropertiesSet" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="294" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-10" target="teYCJ3rC2_9tq7Tjygq5-20">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-10" target="teYCJ3rC2_9tq7Tjygq5-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-10" value="io.seata.spring.annotation.GlobalTransactionScanner#wrapIfNecessary重写该方法&lt;br&gt;创建GlobalTransactionalInterceptor" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-10" value="io.seata.spring.annotation.GlobalTransactionScanner#wrapIfNecessary重写该方法&lt;br&gt;创建GlobalTransactionalInterceptor" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-425" y="620" width="450" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-13" target="teYCJ3rC2_9tq7Tjygq5-15">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-13" target="teYCJ3rC2_9tq7Tjygq5-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-13" target="teYCJ3rC2_9tq7Tjygq5-16">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-13" target="teYCJ3rC2_9tq7Tjygq5-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-13" value="i调用#initClient" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-13" value="i调用#initClient" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="294" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-15" value="初始化TM" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-15" value="初始化TM" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="170" y="700" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-16" value="初始化RM" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-16" value="初始化RM" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="440" y="700" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-21" value="比如创建订单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-19" target="teYCJ3rC2_9tq7Tjygq5-20">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-21" value="比如创建订单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-19" target="teYCJ3rC2_9tq7Tjygq5-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-19" value="浏览器发起请求触发全局事务-Order" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-19" value="浏览器发起请求触发全局事务-Order" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-870" y="800" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-20" target="teYCJ3rC2_9tq7Tjygq5-24">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-20" target="teYCJ3rC2_9tq7Tjygq5-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-20" value="GlobalTransactionalInterceptor.invoke()" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-20" value="GlobalTransactionalInterceptor.invoke()" style="whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-310" y="805" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-24" target="teYCJ3rC2_9tq7Tjygq5-26">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-24" target="teYCJ3rC2_9tq7Tjygq5-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-24" value="解析GlobalTransactional注解" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-24" value="解析GlobalTransactional注解" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-260" y="910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-26" target="teYCJ3rC2_9tq7Tjygq5-28">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-26" target="teYCJ3rC2_9tq7Tjygq5-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-26" value="handleGlobalTransaction&lt;br&gt;获取事务信息/执行全局事务" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-26" value="handleGlobalTransaction&lt;br&gt;获取事务信息/执行全局事务" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-330" y="1020" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-28" target="teYCJ3rC2_9tq7Tjygq5-40">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-28" target="teYCJ3rC2_9tq7Tjygq5-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-28" value="execute()" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-28" value="execute()" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-260" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-30" target="teYCJ3rC2_9tq7Tjygq5-32">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-30" target="teYCJ3rC2_9tq7Tjygq5-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-30" target="teYCJ3rC2_9tq7Tjygq5-56">
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-2" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="teYCJ3rC2_9tq7Tjygq5-33">
+          <mxGeometry x="0.0788" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-30" target="teYCJ3rC2_9tq7Tjygq5-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-30" value="beginTransaction()&lt;br&gt;开始执行全局事务" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-1" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="teYCJ3rC2_9tq7Tjygq5-57">
+          <mxGeometry x="0.1112" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-30" value="beginTransaction()&lt;br&gt;开始执行全局事务" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-260" y="1660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-32" target="teYCJ3rC2_9tq7Tjygq5-36">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-32" target="teYCJ3rC2_9tq7Tjygq5-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-32" value="business.execute();执行业务" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="1740" width="120" height="60" as="geometry" />
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-32" value="business.execute();执行业务" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="1780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-34" target="teYCJ3rC2_9tq7Tjygq5-38">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-34" target="teYCJ3rC2_9tq7Tjygq5-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-34" value="completeTransactionAfterThrowing" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="1940" width="260" height="40" as="geometry" />
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-34" value="completeTransactionAfterThrowing//事务回滚" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="-330" y="1990" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-36" target="teYCJ3rC2_9tq7Tjygq5-34">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-36" target="teYCJ3rC2_9tq7Tjygq5-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-36" value="commitTransaction()//提交事务" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="1850" width="120" height="60" as="geometry" />
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-36" value="commitTransaction()//提交事务" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="1880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-38" value="&lt;div&gt;resumeGlobalLockConfig(previousConfig);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; triggerAfterCompletion();&lt;/div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cleanUp();清楚所用资源" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="2024" width="300" height="60" as="geometry" />
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-38" value="&lt;div&gt;resumeGlobalLockConfig(previousConfig);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; triggerAfterCompletion();&lt;/div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cleanUp();清楚所用资源" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="2100" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-40" target="teYCJ3rC2_9tq7Tjygq5-47">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-40" target="teYCJ3rC2_9tq7Tjygq5-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-40" value="TransactionInfo txInfo = business.getTransactionInfo();//获取当前事务" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-40" value="TransactionInfo txInfo = business.getTransactionInfo();//获取当前事务" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-390" y="1260" width="380" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-47" target="teYCJ3rC2_9tq7Tjygq5-49">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-47" target="teYCJ3rC2_9tq7Tjygq5-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-47" value="GlobalTransaction tx = GlobalTransactionContext.getCurrent();获取当前事务上下文包括XID" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-47" value="GlobalTransaction tx = GlobalTransactionContext.getCurrent();获取当前事务上下文包括XID" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-390" y="1370" width="380" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-49" target="teYCJ3rC2_9tq7Tjygq5-51">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-49" target="teYCJ3rC2_9tq7Tjygq5-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-49" value="Propagation propagation = txInfo.getPropagation();根据配置传播行为不同执行事务" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-49" value="Propagation propagation = txInfo.getPropagation();根据配置传播行为不同执行事务" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-375" y="1480" width="350" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-51" target="teYCJ3rC2_9tq7Tjygq5-30">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-51" target="teYCJ3rC2_9tq7Tjygq5-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-51" value="&lt;div&gt;if (tx == null) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tx = GlobalTransactionContext.createNew();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }当前没有事务则创建事务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-51" value="&lt;div&gt;if (tx == null) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tx = GlobalTransactionContext.createNew();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }当前没有事务则创建事务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-375" y="1570" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-56" target="teYCJ3rC2_9tq7Tjygq5-58">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-56" target="teYCJ3rC2_9tq7Tjygq5-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-56" value="tx.begin(txInfo.getTimeOut(), txInfo.getName());//TM对TC(Server) 发起请求" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-56" value="tx.begin(txInfo.getTimeOut(), txInfo.getName());//TM对TC(Server) 发起请求" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-1010" y="1660" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-58" target="teYCJ3rC2_9tq7Tjygq5-60">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-58" target="teYCJ3rC2_9tq7Tjygq5-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-58" value="DefaultGlobalTransaction#begin(int, java.lang.String)" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-58" value="DefaultGlobalTransaction#begin(int, java.lang.String)" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-1015" y="1760" width="500" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="teYCJ3rC2_9tq7Tjygq5-60" target="teYCJ3rC2_9tq7Tjygq5-62">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="teYCJ3rC2_9tq7Tjygq5-60" target="teYCJ3rC2_9tq7Tjygq5-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-64" value="Netty通讯" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="teYCJ3rC2_9tq7Tjygq5-63">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-64" value="Netty通讯" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="teYCJ3rC2_9tq7Tjygq5-63" vertex="1" connectable="0">
           <mxGeometry x="-0.1462" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-60" value="io.seata.tm.DefaultTransactionManager#begin默认事务管理者" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-60" value="io.seata.tm.DefaultTransactionManager#begin默认事务管理者" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-970" y="1860" width="410" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-62" value="io.seata.tm.DefaultTransactionManager#syncCall" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-62" value="io.seata.tm.DefaultTransactionManager#syncCall" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-995" y="2000" width="460" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-65" value="spring.factories里数据源代理核心类SeataDataSourceAutoConfiguration" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-65" value="spring.factories里数据源代理核心类SeataDataSourceAutoConfiguration" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="850" y="70" width="540" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="teYCJ3rC2_9tq7Tjygq5-66" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;事务的开启涉及到sql 解析已经 前后镜像的生成 离不开数据源的代理&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="teYCJ3rC2_9tq7Tjygq5-66" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;事务的开启涉及到sql 解析已经 前后镜像的生成 离不开数据源的代理&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="890" y="-40" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbbpKGn0UcV9-m-uiWOn-3" target="bbbpKGn0UcV9-m-uiWOn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-180;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1570" width="20" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;i&gt;1pc&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbbpKGn0UcV9-m-uiWOn-7" target="bbbpKGn0UcV9-m-uiWOn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-180;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1890" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;i&gt;2pc&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
