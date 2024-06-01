@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-01T03:27:39.116Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="pbh7gj9_lGPTXOIjesRu" version="24.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-01T03:30:36.254Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="iGoMSrgOwLk8Mql6ELFj" version="24.4.3" type="github">
   <diagram name="第 1 页" id="ZycuExzJnoT6AE0Q76C5">
-    <mxGraphModel dx="2911" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2848" dy="1826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -337,6 +337,15 @@
         </mxCell>
         <mxCell id="bbbpKGn0UcV9-m-uiWOn-53" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;insertUndoLog执行写入undolog&lt;/font&gt;&lt;/b&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;try (PreparedStatement pst = conn.prepareStatement(INSERT_UNDO_LOG_SQL)) {&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pst.setLong(1, branchId);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pst.setString(2, xid);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pst.setString(3, rollbackCtx);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pst.setBytes(4, undoLogContent);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pst.setInt(5, state.getValue());&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pst.executeUpdate();&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2370" y="2028" width="620" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbbpKGn0UcV9-m-uiWOn-55" target="teYCJ3rC2_9tq7Tjygq5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bbbpKGn0UcV9-m-uiWOn-55" target="teYCJ3rC2_9tq7Tjygq5-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbbpKGn0UcV9-m-uiWOn-55" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;自动装配&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-500" width="140" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
